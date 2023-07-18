@@ -177,7 +177,7 @@ def parse_args() -> argparse.Namespace:
         "-sh", "--space_hard_limit", required=True, help="Space Hard Limit"
     )
     parser.add_argument(
-        "-fh", "--file_hards_limit", required=True, help="File Hard Limit"
+        "-fh", "--file_hard_limit", required=True, help="File Hard Limit"
     )
     parser.add_argument("-u", "--api_user", default="admin", help="API Username")
     parser.add_argument("-p", "--api_pass", help="API Password")
